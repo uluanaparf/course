@@ -76420,7 +76420,7 @@ uz(a){return this.a_V(a)},
 a_V(a){var s=0,r=A.T(t.V0),q,p,o,n
 var $async$uz=A.U(function(b,c){if(b===1)return A.Q(c,r)
 while(true)switch(s){case 0:s=3
-return A.V(A.ao7(A.f6("http://api.openweathermap.org/geo/1.0/direct?q="+a+"&apikey=ff92bf0e474e98c37d8c1f14d8290109")),$async$uz)
+return A.V(A.ao7(A.f6("https://api.openweathermap.org/geo/1.0/direct?q="+a+"&apikey=ff92bf0e474e98c37d8c1f14d8290109")),$async$uz)
 case 3:n=c
 if(n.b===200){p=B.cw.ej(A.anY(A.amO(n.e).c.a.h(0,"charset")).ej(n.w))
 o=J.b4(p)
